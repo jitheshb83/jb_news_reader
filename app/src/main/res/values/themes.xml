@@ -1,0 +1,7 @@
+<resources>
+    <!-- Minimal launch/window theme. Actual UI theming (colors, dark mode) is handled
+         in Compose via MaterialTheme, driven by the user's theme_mode setting. -->
+    <style name="Theme.NewsReader" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
